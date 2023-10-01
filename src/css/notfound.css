@@ -1,0 +1,18 @@
+.notFound-sec {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 200px;
+}
+.notfound-head-container {
+    text-align: center;
+    width: 100%;
+}
+.not-found-head {
+    font-size: 2rem;
+    white-space:nowrap;
+    margin: 0 auto;
+}
+.status-code {
+    font-size: 3rem;
+    font-weight: 700;
+}
