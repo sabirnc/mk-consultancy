@@ -18,3 +18,42 @@
 .contact-para {
     color: #555555;
 }
+.contact-us {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.contact-card {  
+    width: 30%;
+    height: 400px;
+    background-color: #4bcd7d;
+    padding: 10px 20px;
+    box-shadow: 1px 2px 15px rgba(100, 100, 100, 0.3);
+
+}
+.contact-head {
+    margin-bottom: .3em;
+}
+.para {
+    margin-bottom: 1em;
+}
+.phone {
+    font-weight:600;
+}
+.phone-number {
+    font-weight: 400;
+}
+
+@media  (max-width:600px) {
+  .contact-us {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-card {
+    width: 80%;
+  }
+  .contact-head {
+    line-height: 1.3;
+  }
+}
